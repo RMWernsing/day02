@@ -4,14 +4,72 @@ footer {
   padding-bottom: 4rem;
 }
 
+
+
+main,
+p {
+  color: yellow;
+}
+
+body {
+  background-color: #071130;
+  margin: 0;
+}
+
+span2 {
+  background-color: #1b4bc4;
+  margin: 5px;
+}
+
+
 .display-flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.flex-direction-column {
+.display-flex-space-between {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-direction-column {
   flex-direction: column;
+}
+
+main {
+  background-color: #071130;
+  color: white;
+}
+
+header {
+  background-color: #071130;
+  color: white;
+}
+
+.logo-padding {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.padding {
+  padding: 15px;
+  padding-right: 50px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
 }
